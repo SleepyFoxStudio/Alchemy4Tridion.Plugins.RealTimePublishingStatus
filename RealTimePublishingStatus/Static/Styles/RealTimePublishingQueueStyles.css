@@ -1,0 +1,11 @@
+﻿/* main icon in full ribbon mode */
+.ribbontoolbar #RealTimePublishingStatusButton.button .image
+{
+    background-image: url('${ImgUrl}icon-32x32.png');
+}
+
+/* main icon in minimized ribbon mode */
+.ribbontoolbar.minimized #RealTimePublishingStatusButton.button .image
+{
+    background-image: url('${ImgUrl}icon-16x16.png');
+}

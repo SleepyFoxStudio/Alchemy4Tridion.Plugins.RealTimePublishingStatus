@@ -1,0 +1,57 @@
+﻿body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    line-height: 1;
+    color: rgb(34, 46, 57);
+    padding: 22px 10px;
+    padding-bottom: 55px;
+    overflow-y: auto;
+}
+
+h1 {
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+#queueTable {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+
+    #queueTable thead {
+        cursor: pointer;
+        background: #EDEDED;
+    }
+
+        #queueTable thead tr th {
+            text-align: left;
+            line-height: 18px;
+            padding-left: 2px;
+            font-weight: normal;
+            border: 1px solid #CCCCCC;
+        }
+
+            #queueTable thead tr th span {
+                padding-right: 20px;
+                background-repeat: no-repeat;
+                background-position: 100% 100%;
+                text-align: left;
+            }
+
+    #queueTable tr td {
+        border-bottom: solid 1px #cccccc;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 2px;
+    }
+
+
+    #queueTable thead tr th.headerSortUp span {
+        background-image: url('http://i.imgur.com/SP99ZPJ.png');
+    }
+
+    #queueTable thead tr th.headerSortDown span {
+        background-image: url('http://i.imgur.com/RkA9MBo.png');
+    }
