@@ -3,7 +3,7 @@
   <id>56093937e4de0211ecfc1c5f</id>
   <name>Real_Time_Publish_Queue</name>
   <description><![CDATA[Real Time Publishing Queue (RTPQ) allows you to view the items that are currently being published without refreshing, this information is displayed via the CME and allows instant access to the following information, How many items in the publish queue and who it is publishing.]]></description>
-  <version>1.0.0.0</version>
+  <version>1.0.0.1</version>
   <versionId>56093937e4de0211ecfc1c60</versionId>
   <frameworkVersion>0.6.2.0</frameworkVersion>
   <buildTime>2015-09-30T20:08:11.8505035+01:00</buildTime>
