@@ -89,7 +89,7 @@
     <Content Include="a4t.xml" />
     <Content Include="Static\Commands\OpenRealTimePublishingQueue.js" />
     <Content Include="Static\Commands\QueueCommand.js" />
-    <Content Include="Static\Images\icon-15x16.png" />
+    <Content Include="Static\Images\icon-16x16.png" />
     <Content Include="Static\Images\icon-32x32.png" />
     <Content Include="Static\Scripts\jquery-2.1.4.min.js" />
     <Content Include="Static\Styles\RealTimePublishingQueuePopup.css" />

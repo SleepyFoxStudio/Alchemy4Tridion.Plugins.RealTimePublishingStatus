@@ -20,7 +20,7 @@ namespace RealTimePublishingStatus.GUI.ResourceGroups
             AddFile("RealTimePublishingQueueStyles.css");
 
             //Add the images
-            AddFile("icon-15x16.png");
+            AddFile("icon-16x16.png");
             AddFile("icon-32x32.png");
 
             AddFile<RealTimePublishingStatusCommandSet>();
