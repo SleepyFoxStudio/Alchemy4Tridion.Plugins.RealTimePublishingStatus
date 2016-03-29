@@ -1,10 +1,5 @@
 ﻿using Alchemy4Tridion.Plugins.GUI.Configuration;
 using RealTimePublishingStatus.GUI.ResourceGroups;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RealTimePublishingStatus.GUI.RibbonToolbar
 {
@@ -19,7 +14,7 @@ namespace RealTimePublishingStatus.GUI.RibbonToolbar
             // which tab to put it on
             PageId = Constants.PageIds.HomePage;
             // Which group to put it on... in this case we're adding it to the publish group
-            GroupId = "PublishGroup";
+            GroupId = Constants.GroupIds.HomePage.PublishGroup;
 
             // the command to execute when clicked..
             Command = "OpenRealTimePublishingQueue";
