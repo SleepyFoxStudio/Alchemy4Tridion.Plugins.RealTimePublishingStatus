@@ -16,6 +16,7 @@
                 window.setTimeout(myInitializeCode, 500);
                 return;
             }
+            getRealTimeItemsFromQueue();
             window.setInterval(getRealTimeItemsFromQueue, 5000);
         }
 
